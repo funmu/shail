@@ -18,5 +18,7 @@ def partition(arr, low, high):
 
 # Example usage:
 arr = [3, 6, 2, 8, 1, 4, 9, 5]
+print("Input array:", arr)
+
 quicksort_in_place(arr, 0, len(arr) - 1)
 print("Sorted array:", arr)
