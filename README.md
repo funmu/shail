@@ -34,7 +34,12 @@ We prefer DeepSeek-R1 to start with. And soon will have information for other mo
 Apple Silicon chips (M1, M2, M3, M4) are powerful and come with built-in GPUs.
 Hence, it is attractive for us to run the AI models on these machines locally.
 
-See [SHAIL on Apple Silicon](./1.shail.apple.silicon.md) for details
+See [SHAIL on Apple Silicon v1](./docs/1.shail.apple.silicon.md) for details.
+This version uses the **llama.cpp** to host open sourced LLM models.
+
+See [SHAIL on Apple Silicon v2](./docs/2.shail.apple.silicon.md) for details.
+In the v2, we use **ollama** and **open-webui** to host the LLM models.
+We also use Docker containers, to keep things simpler.
 
 ## References
 

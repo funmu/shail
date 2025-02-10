@@ -172,4 +172,4 @@ cython_debug/
 .pypirc
 
 models/
-/releases/dmg-shail2
+/releases
